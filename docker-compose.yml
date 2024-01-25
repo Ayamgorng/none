@@ -78,13 +78,12 @@ networks:
     ipam:
       config:
         - subnet: 172.20.0.0/16
-
-
-
-Jalanin panel :
+ 
+ 
+Start the Panel:
  
 docker-compose up -d
  
-Bikin user buat panel nya :
+Create a user for the panel:
  
 docker-compose run --rm panel php artisan p:user:make
